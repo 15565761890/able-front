@@ -8,6 +8,7 @@ import {
 	BrowserRouter as Router
 } from 'react-router-dom'
 import Fwb from './utils/fwb'
+import Drag from './utils/drag';
 import './css/index.css'
 
 class Home extends Component {
@@ -17,7 +18,7 @@ class Home extends Component {
 	render = () => {
 		return (
 			<Router>
-				<div>
+				<div className="navDiv">
 					<ul className="navLi">
 						<span><NavLink to="/notice" activeClassName="active">课程公告</NavLink></span>
 						<span><NavLink to="/outline" activeClassName="active">课程大纲</NavLink></span>
@@ -27,6 +28,7 @@ class Home extends Component {
 						<span><NavLink to="/answerQuestion" activeClassName="active">课程答疑</NavLink></span>
 						<span><NavLink to="/score" activeClassName="active">成绩</NavLink></span>
 						<span><NavLink to="/fwb" activeClassName="active">富文本demo</NavLink></span>
+						<span><NavLink to="/drag" activeClassName="active">拖拽demo</NavLink></span>
 					</ul>
 					<Switch>
 						<Redirect from="/" exact to="/notice"/>
@@ -34,7 +36,7 @@ class Home extends Component {
 						<Route path="/wiki" component={Wiki}/>
 						<Route path="/profile" component={Profile}/>
 						<Route path="/fwb" component={Fwb}/>
-
+						<Route path="/drag" component={Drag}/>
 						<Route component={Page404}/>
 					</Switch>
 				</div>

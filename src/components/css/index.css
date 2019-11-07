@@ -4,6 +4,10 @@
 .navLi span{
     margin-left:20px;
 }
+.navDiv {
+    width: 800px;
+    margin: 0 auto;
+}
 #edit {
     /*height: 600px;*/
     width: 723px;
@@ -15,4 +19,36 @@
 #content {
     height: 600px;
     overflow: auto;
+}
+
+.dragContain #div1 {
+    /*display: flex;*/
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+    border: 1px solid #aaaaaa;
+    /*margin: 0 auto;*/
+    /*float: left;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.dragContain #drag1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.dragContain #drag2 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff7878;
+}
+.dragContain #drag3 {
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+}
+.dragContain #drag4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
 }

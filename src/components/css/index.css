@@ -4,3 +4,15 @@
 .navLi span{
     margin-left:20px;
 }
+#edit {
+    /*height: 600px;*/
+    width: 723px;
+    border: 1px gainsboro solid;
+}
+#menu {
+    border: 1px gainsboro solid;
+}
+#content {
+    height: 600px;
+    overflow: auto;
+}

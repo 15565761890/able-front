@@ -1,0 +1,188 @@
+#login {
+    margin-left: 607px;
+}
+.main {
+    width: 1200px;
+    margin: auto;
+    padding-left: 48px;
+}
+.header {
+    margin-top: 60px;
+}
+/*.header .search {*/
+    /*float: left;*/
+    /*margin-left: 689px*/
+/*}*/
+#detail_main {
+    width: 700px;background-color:  #FFFFFF;
+}
+.main #course_info {
+    clear: both;
+}
+.main #course_info #course_info_detail {
+    display: none;
+}
+.main #course_info #course_info_button {
+    position: relative;
+    margin-left: 1000px;
+}
+.main #update_notice h3 {
+    width: 400px;margin: auto;
+}
+
+.main #update_notice .update_notice_one {
+    padding: 60px 100px 0 100px;
+}
+.main #update_notice .update_notice_one .img_photo {
+    margin-left: 500px;margin-top: -60px;
+}
+.main #update_notice .update_notice_one .img_photo span {
+    margin-right: 40px;
+}
+.main #update_notice .update_notice_one .img_photo img {
+    height: 54px;
+    width: 50px;
+}
+.main #update_notice .update_notice_one .img_photo #unfold {
+    font-size: 40px;color: gray;
+}
+.main #update_notice .update_notice_one hr {
+    width: 100%;
+}
+.main #older_notice h3 {
+    width: 400px;margin: auto;
+}
+.main #older_notice #update_notice_all .update_notice_one {
+    padding: 60px 100px 0 100px;
+}
+
+.main #older_notice #update_notice_all .update_notice_one .img_photo {
+    margin-left: 500px;margin-top: -60px;
+}
+.main #older_notice #update_notice_all .update_notice_one .img_photo span{
+    padding-left:180px;color: #4ca5e7;
+}
+.main #older_notice #update_notice_all .update_notice_one .img_photo hr{
+    width: 100%;
+}
+
+
+
+/*背景层*/
+.detail_header {
+    margin-top:-40px;
+}
+.detail_header_teacher {
+    display: block;
+    width: 400px;
+}
+.detail_header_teacher img {
+    width: 94px;
+    height: 74px;
+}
+.detail_header_teacher p {
+    margin-left: 98px;
+    margin-top:-27px;
+}
+.detail_header_info {
+    width: 400px;
+    float: right;
+    margin-top:-57px;
+    margin-right: -80px;
+}
+.detail_body {
+    padding: 40px;
+}
+#detail_course_info_detail_button {
+    position: relative;
+    margin-left: 500px;
+}
+.detail_comment_one {
+    padding: 40px;
+}
+.detail_header_teacher img {
+    width: 94px;
+    height: 74px;
+}
+.detail_header_teacher a {
+    padding-left: 350px;
+}
+.detail_header_teacher p {
+    margin-left: 98px;margin-top:-27px
+}
+#detail_comment_comment_button {
+    margin-left: 507px;
+}
+.detail_comment_comment_one {
+    padding:  0px 40px 10px 40px;
+}
+
+hr {
+    width: 100%;
+}
+#comment_reply_popout textarea {
+    width: 303px;
+    height: 179px;
+}
+
+.popLayer {
+    display: block;
+    background-color: #B3B3B3;
+    position: absolute;
+
+    right: 0;
+    /*bottom: 0;*/
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);/* 只支持IE6、7、8、9 */
+}
+.popLayerTwo {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+
+    right: 0;
+    /*bottom: 0;*/
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);/* 只支持IE6、7、8、9 */
+}
+/*弹出层*/
+#detail {
+    display: block;
+    background-color: #B3B3B3;
+    z-index: 11;
+    position:fixed;
+    width: 771px;
+    height: 100%;
+    margin-left: 33vw;
+    top: 6vh;
+    overflow: auto;
+}
+#publish_notice {
+    display: none;
+}
+.publish_notice {
+    display: block;
+    background-color:  #FFFFFF;
+    z-index: 11;
+    position:fixed;
+    width: 700px;
+    height: 616px;
+    margin-left: 33vw;
+    top: 6vh;
+    overflow: hidden;
+    padding: 20px;
+}
+#comment_reply_popout {
+    display: none;
+    position: fixed;
+    top: 41vh;
+    right: 30vw;
+    width: 436px;
+    height: 242px;
+}
